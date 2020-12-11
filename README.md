@@ -3,7 +3,10 @@
 A script for homebrew to interactive upgrade outdated casks and outdated
 
 ## Install
-`brew install brew-up`
+```sh
+brew tap mkanako/tap
+brew install mkanako/tap/brew-up
+```
 
 ## Usage
 Execute `brew-up`, it will run `brew update` first, then list the outdated casks and outdated with an interactive UI.
